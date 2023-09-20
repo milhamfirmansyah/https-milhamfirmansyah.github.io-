@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Mochiy+Pop+One&display=swap');
+
+.wish-container {
+  display: flex;
+  padding: 130px 100px 220px 100px;
+  position: relative;
+}
+
+.wish-left {
+  width: 623px;
+  position: relative;
+}
+
+.birthday-text-border {
+  width: 411px;
+  height: 18px;
+  border-radius: 4px;
+  background: #f7a3f9;
+  position: absolute;
+  top: 74px;
+  z-index: -2;
+}
+
+.wish-left h1 {
+  color: #303030;
+  font-family: 'Mochiy Pop One';
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 96.154% */
+  letter-spacing: 1.04px;
+  margin-bottom: 44px;
+  padding-top: 30px;
+}
+
+.wish-left p {
+  color: #606060;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.wish-right {
+  margin-left: 80px;
+  position: relative;
+}
+
+.wishphoto-1 {
+  width: 320px;
+}
+
+.wishphoto-2,
+.wishphoto-3,
+.wishphoto-4 {
+  width: 110px;
+  position: absolute;
+  border: 6px solid #fdf0fd;
+  border-bottom: 30px solid #fdf0fd;
+}
+
+.wishphoto-2 {
+  right: -65px;
+  top: 41px;
+  transform: rotate(10deg);
+}
+
+.wishphoto-3 {
+  right: -55px;
+  bottom: -65px;
+  transform: rotate(-12deg);
+}
+
+.wishphoto-4 {
+  left: 8px;
+  bottom: -95px;
+  transform: rotate(10deg);
+}
+
+@media screen and (min-width: 1350px) {
+  .wish-right {
+    margin-left: 100px;
+  }
+
+  .wish-container {
+    padding: 75px 120px;
+  }
+}

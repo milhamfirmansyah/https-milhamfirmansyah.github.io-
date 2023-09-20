@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Mochiy+Pop+One&display=swap');
+
+.let-container {
+  width: 825px;
+  margin: 0 auto;
+  padding: 65px 90px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 18%;
+  background-color: #fff;
+  border-radius: 24px;
+  border: 2px solid #fedfff;
+  z-index: 2000;
+  overflow: hidden;
+}
+
+.first-par,
+.sec-par,
+.dear,
+.letter-from {
+  color: #606060;
+  text-align: justify;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.first-par,
+.sec-par {
+  text-indent: 50px;
+}
+
+.letter-from {
+  text-align: end;
+}
+
+.let-container button {
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  right: 90px;
+  top: 26px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  background-color: #fedfff;
+  color: #f58ef8;
+  cursor: pointer;
+  transition: 0.2px;
+}
+
+.let-container button:hover {
+  background-color: #f58ef8;
+  color: #fedfff;
+  transition: 0.2px;
+}
+
+.letter1 {
+  position: absolute;
+  z-index: 3000;
+  bottom: 16px;
+  left: -30px;
+  width: 200px;
+}
+
+.letter2{
+  position: absolute;
+  z-index: 3000;
+  bottom: 15px;
+  left: 140px;
+  width: 200px;
+}

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleap.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Mochiy+Pop+One&display=swap');
+
+.hero-container{
+  padding: 80px 100px 55px 100px;
+  display: flex;
+  background-color: #F1B0FC1A;
+}
+
+.hero-image {
+  width: 488px;
+  border-radius: 8px;
+}
+
+.birthday-text {
+  color: #303030;
+  font-family: 'Mochiy Pop One';
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90px;
+  letter-spacing: 1.64px;
+  width: 460px;
+  padding-top: 70px;
+  padding-left: 42px;
+}
+
+.name {
+    color: #F58EF8;
+    font-size: 55px;
+    line-height: 8px;
+    font-family: 'Mochiy Pop One';
+    padding-top: 10px;
+    padding-left: 42px;
+    line-height: 70px;
+    letter-spacing: 1.64px;
+}
+
+.balon-1 {
+    position: absolute;
+    width: 90px;
+    transform: rotate(36deg);
+    left: 0;
+    top: 20px;
+}
+
+.balon-2 {
+    position: absolute;
+    width: 90px;
+    right: 236px;
+    top: 50px;
+}
+
+.balon-3 {
+    position: absolute;
+    width: 90px;
+    transform: rotate(-25deg);
+    right: 32px;
+    top: 399px;
+}
+
+.eclips1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.eclips2 {
+    position: absolute;
+    top: 93px;
+    right: 128px;
+}
+
+.eclips3 {
+    position: absolute;
+    width: 98px;
+    right: 16px;
+    top: 150px;
+}
+
+.three-eclips-1 {
+    position: absolute;
+    top: 48px;
+    left: 500px;
+}
+.three-eclips-2 {
+    position: absolute;
+    top: 48px;
+    left: 404px;
+}
+
+.three-eclips-3 {
+    position: absolute;
+    top: 575px;
+}
+
+.three-eclips-4 {
+    position: absolute;
+    top: 575px;
+    left: 195px;
+}
+
+.audio{
+    position: absolute;
+    left: 680px;
+    top: 50px;
+}
+
+.audio h4{
+    color: #606060;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+    padding-left: 22px;
+    padding-bottom: 3px;
+}
+
+.audio audio{
+    width: 100px;
+    height: 28px;
+}

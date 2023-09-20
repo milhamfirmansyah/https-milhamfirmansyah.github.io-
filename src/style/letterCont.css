@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Mochiy+Pop+One&display=swap');
+
+.letter-container {
+  display: flex;
+  margin: 150px 247px 241px 247px;
+  align-items: center;
+  position: relative;
+}
+
+.pict-container img {
+  width: 420px;
+  border-radius: 8px;
+}
+
+.letter-right {
+  margin-left: 150px;
+}
+
+.letter-right button {
+  padding: 20px 38px;
+  color: #fedfff;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  border-radius: 10px;
+  background: #f58ef8;
+  box-shadow: 0px 6px 30px 0px rgba(85, 143, 255, 0.2);
+  border: none;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.letter-right button:hover {
+  background-color: #fedfff;
+  color: #f58ef8;
+  transition: 0.2s;
+}
+
+.pict-container {
+  position: relative;
+}
+
+.letEclips1,
+.letEclips2,
+.letEclips3 {
+  position: absolute;
+  z-index: 10;
+}
+
+.letEclips1 {
+  top: -28px;
+  left: 245px;
+}
+
+.letEclips2 {
+  top: -28px;
+  left: 487px;
+}
+
+.letEclips3 {
+  top: -28px;
+  left: 584px;
+}
+
+.pict-border {
+  position: absolute;
+  width: 420px;
+  height: 364px;
+  border-radius: 20px;
+  border: 3px solid #f58ef8;
+  top: 21px;
+  right: 21px;
+  z-index: -5;
+}
+
+.letter-wrapper {
+  position: relative;
+}
+
+.letter-dec {
+  position: absolute;
+  top: -20px;
+  left: -60px;
+  z-index: -100;
+  width: 1361.311px;
+}

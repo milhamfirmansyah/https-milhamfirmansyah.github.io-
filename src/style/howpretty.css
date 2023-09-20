@@ -1,0 +1,65 @@
+@import url('https://fonts.googleap.com/css2?family=Mochiy+Pop+One&display=swap');
+
+.carousel-wrapper {
+  width: 100%;
+}
+
+.carousel-container {
+  max-width: 1060px;
+  margin: 0 auto;
+  height: 584px;
+  border-radius: 30px;
+  background-color: #f1b0fc1a;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-container h1 {
+  color: #303030;
+  font-family: Mochiy Pop One;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 1.04px;
+  margin-top: 36px;
+  margin-left: 28%;
+}
+
+.icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.icon2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.icon3 {
+  position: absolute;
+  right: 0;
+  top: 81px;
+}
+
+.icon4 {
+  position: absolute;
+  left: 39px;
+  top: 463px;
+}
+
+.icon5 {
+  position: absolute;
+  right: 5.6px;
+  top: 460px;
+  transform: rotate(-4.753deg);
+}
+
+.icon6 {
+  position: absolute;
+  top: 505px;
+  right: 21.9px;
+  transform: rotate(8.762deg);
+}
